@@ -133,7 +133,6 @@ export default {
     border-right: 1px solid $color-sistema-e
     position: absolute
     background: $white
-    font-size: 19px
 
     @media (max-height: 800px)
       min-height: 800px
@@ -227,8 +226,6 @@ export default {
         @extend .aside-menu__menu__item__lnk
         padding: 0
         border-radius: 1em
-        span
-          font-size: 20px
         i
           display: block
           width: 2em
@@ -239,6 +236,11 @@ export default {
   @media (max-width: $bp-max-xs)
     &__sec-menu
       padding-bottom: 110px
+
+.aside-menu__menu__item--active
+  background-color: white
+  span
+    font-weight: 900
 
 .main-menu-enter-active
   animation: main-menu-open-animation .3s;
