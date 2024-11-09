@@ -1,0 +1,133 @@
+
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 50%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 51%
+    right: 30%
+
+
+.home-main-title
+  font-size: 18px
+  font-weight: 700
+
+.home-title
+  font-size: 38px !important
+  font-weight: 900 !important
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
+.iniciar-btn-container
+  .iniciar-btn-text
+    transition: all 0.4s ease-in-out
+    background-color: #1172B3 !important
+    color: white !important
+  .icon
+    transition: all 0.4s ease-in-out
+    background-color: #083E61 !important
+  &:hover
+    .iniciar-btn-text
+      background-color: #083E61 !important
+      color: white !important
+    .icon
+      background-color: #1172B3 !important
+      color: white !important
+
+.home-main-title
+  color: #E5782C !important
+.banner-interno__fondo
+  background-color: #CEE2EF!important
+
+.bg-ppal-claro
+  background-color: #F7F4ED
+.bg-ppal-azul
+  background-color: #E5F0F6
+.bg-ppal-azul-oscuro
+  background-color: #D9EEFD
+.bg-ppal-azul-primary
+  background-color: #1172B3
+
+.px-34px
+  padding-left: 34px
+  padding-right: 34px
+.py-30px
+  padding-top: 30px
+  padding-bottom: 30px
+.align-self-base
+  align-self: baseline
+
+.fs-18px
+  font-size: 18px
+.-mt-18px
+  margin-top: -18px
+.box-shadow
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+.rounded-8px
+  border-radius: 8px !important 
+.bg-img-1
+  position: absolute
+  max-width: none
+  width: calc( 100% + 96px  )
+  height: calc( 100% + 96px )
+  left: -48px
+  top: -48px
+  inline-size: auto
+
+// ACORDEON
+.acordion__header
+  background-color: white !important
+.acordion__contenido
+  background-color: #FBF6DB !important  
+.acordion__header--active
+  background-color: #F5EEC2 !important
+
+// BG FONDO
+.bg-fondo
+  &-1
+    background-image: url("../assets/componentes/background-test.svg") !important
+    background-position: top
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.3rem
+
+.bg-red-claro
+  background-color: #FCDFDB !important
+
+// BORDERS
+.border-bottom-app-1
+  border-bottom: 1px solid #D6CF9D
+
+// Variables
+$custom-card-border-radius: 0px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFF
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 322px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+
+.cursor-pointer
+  cursor: pointer
