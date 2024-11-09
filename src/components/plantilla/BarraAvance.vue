@@ -382,6 +382,10 @@ export default {
     &--siguiente:hover .content
       transform: translateX(6%)
 
+    &--regresar:hover,
+    &--siguiente:hover
+      color: #12263F !important
+
     &--disable
       pointer-events: none
       color: #adb5bd !important

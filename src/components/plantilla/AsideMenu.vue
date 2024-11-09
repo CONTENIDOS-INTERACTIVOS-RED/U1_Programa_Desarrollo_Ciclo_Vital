@@ -227,6 +227,8 @@ export default {
         @extend .aside-menu__menu__item__lnk
         padding: 0
         border-radius: 1em
+        span
+          font-size: 20px
         i
           display: block
           width: 2em

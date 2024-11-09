@@ -12,7 +12,9 @@
       )
         .indicador__container(v-if="mostrarIndicador && index === 1")
           .indicador--click
-        img.me-3(src='@/assets/componentes/tabs-img-1.svg' :style="{'width':'37px'}")
+        img.me-3(v-if="index === 0" src='@/assets/curso/unidad/img-15.svg' :style="{'width':'37px'}")
+        img.me-3(v-if="index === 1" src='@/assets/curso/unidad/img-16.svg' :style="{'width':'37px'}")
+        img.me-3(v-if="index === 2" src='@/assets/curso/unidad/img-17.svg' :style="{'width':'37px'}")
         span(v-html="elm.titulo")
   .tabs-c__content-item(
     v-for="elm of elements"

@@ -30,8 +30,8 @@
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.4s ease-in-out
-    background-color: #1172B3 !important
-    color: white !important
+    background-color: #9EF0FD !important
+    color: #0B0A0A !important
   .icon
     transition: all 0.4s ease-in-out
     background-color: #083E61 !important
@@ -41,22 +41,39 @@
       color: white !important
     .icon
       background-color: #1172B3 !important
-      color: white !important
+      color: #083E61 !important
 
 .home-main-title
   color: #E5782C !important
 .banner-interno__fondo
-  background-color: #CEE2EF!important
+  background-color: #DCE8FA!important
+
+.btn-ppal
+  a:hover
+    color: #192B44
+
+.color-ppal
+  color: #192B44
 
 .bg-ppal-claro
   background-color: #F7F4ED
+
+.bg-ppal-azul-claro
+  background-color: #EBFCFE
 .bg-ppal-azul
-  background-color: #E5F0F6
+  background-color: #EDF3FC
 .bg-ppal-azul-oscuro
-  background-color: #D9EEFD
+  background-color: #DCE8FA
 .bg-ppal-azul-primary
+  background-color: #D7F9FE
+.bg-ppal-azul-2
   background-color: #1172B3
 
+.bg-ppal-amarillo-claro
+  background-color: #FCF9E5
+
+.bg-ppal-morado
+  background-color: #453179
 .px-34px
   padding-left: 34px
   padding-right: 34px
@@ -72,8 +89,12 @@
   margin-top: -18px
 .box-shadow
   box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+
+  // BORDERS
 .rounded-8px
-  border-radius: 8px !important 
+  border-radius: 8px !important
+
+
 .bg-img-1
   position: absolute
   max-width: none
@@ -85,17 +106,35 @@
 
 // ACORDEON
 .acordion__header
-  background-color: white !important
+  background-color: #EBE9F0 !important
+  h4
+    font-weight: 400
 .acordion__contenido
-  background-color: #FBF6DB !important  
+  background-color: #EBE9F0 !important  
 .acordion__header--active
-  background-color: #F5EEC2 !important
+  background-color: #453179 !important
+  h4, i
+    font-weight: 900
+    color: white !important
 
 // BG FONDO
 .bg-fondo
   &-1
     background-image: url("../assets/componentes/background-test.svg") !important
     background-position: top
+.bg-fondo
+  &-2
+    background-image: url("../assets/curso/unidad/background-2.svg") !important
+    background-position: bottom
+.bg-fondo
+  &-3
+    background-image: url("../assets/curso/unidad/background-3.svg") !important
+    background-position: bottom
+.bg-fondo
+  &-4
+    background-image: url("../assets/curso/unidad/background-4.svg") !important
+    background-position: bottom
+
 .bg-full-width
   background-size: cover
   background-repeat: no-repeat

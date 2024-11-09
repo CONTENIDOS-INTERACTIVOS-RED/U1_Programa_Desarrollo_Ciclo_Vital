@@ -1,11 +1,10 @@
 <template lang="pug">
 .curso-main-container.creditos-vista
-  BannerInterno(:titulo="'UNIDAD 1. DERECHO CIVIL, GENERAL PERSONAS'" :subTitulo="'SÍNTESIS'")
+  BannerInterno.text-uppercase(:titulo="'unidad 1. Desarrollo y Ciclo Vital: Niños y Adolescentes'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.fs-18px.mb-4.mb-md-5 La Unidad 1 introduce los fundamentos esenciales del Derecho Civil, una rama del derecho privado que regula las relaciones entre personas bajo un principio de igualdad. Se estudian los conceptos clave, las fuentes del Derecho Civil, y se distingue entre personas naturales y jurídicas, sentando una base sólida para entender su relevancia en la vida cotidiana, en ámbitos como el familiar, contractual y patrimonial. 
-    p.fs-18px.mb-4 Este conocimiento permite al estudiante comprender los principios que rigen el Derecho Civil y aplicar estos conceptos en situaciones prácticas, consolidando una formación jurídica que facilitará su desarrollo profesional en el campo legal.
+    p.fs-18px.mb-4.mb-md-5 La unidad 1: Desarrollo Físico y Motor en Niños y Adolescentes,  explora las etapas clave del crecimiento, desde la infancia hasta la adolescencia, y los factores que influyen en este proceso, como la genética, la nutrición y el entorno. Además, se profundiza en los cambios hormonales de la pubertad y en los hitos motores de cada etapa, resaltando la importancia del juego y la actividad física en el desarrollo integral de los jóvenes. Los estudiantes adquirirán herramientas para comprender y acompañar estos procesos, promoviendo un crecimiento saludable y equilibrado.
     figure
-      img(src='@/assets/componentes/sintesis.svg', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/unidad/sintesis.png', alt='Texto que describa la imagen')
     
 
 </template>

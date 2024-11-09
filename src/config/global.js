@@ -34,14 +34,14 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1.',
-        titulo: 'Conceptos y fuentes del Derecho Civil',
+        titulo: 'Etapas del crecimiento físico en la infancia y adolescencia',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2.',
-        titulo: 'Fuentes del Derecho Civil',
+        titulo: 'Etapas del crecimiento físico',
         desarrolloContenidos: true,
       },
       {
@@ -49,6 +49,13 @@ export default {
         icono: 'far fa-file-alt',
         numero: '3.',
         titulo: 'Diferenciación entre personas naturales y jurídicas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4.',
+        titulo: 'Cambios hormonales y sexuales en la pubertad',
         desarrolloContenidos: true,
       },
     ],
@@ -77,12 +84,13 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/Programa_Derecho_Civil_Unidad_1.pdf',
+        download:
+          'downloads/Anexos_Desarrollo de los órganos sexuales primarios y secundarios.pdf',
       },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download: 'downloads/Anexo_Tipos_de_fuentes.pdf',
+        download: 'downloads/material.zip ',
       },
       {
         icono: 'far fa-registered',
@@ -94,121 +102,151 @@ export default {
   referencias: [
     {
       referencia:
-        'Chavarro Cadena, J. E. (Dir.) & Chavarro Moreno, C. L. (Il.). (2020). Código Civil: (3 ed.). Grupo Editorial Nueva Legislación SAS.',
+        'Adolescents. (2023). GADE: Revista Científica, 3(4). Edición especial. McGraw-Hill. ISSN: 2745-2891.',
     },
     {
       referencia:
-        'Chinchilla, C (2019). El rol del Derecho Romano en la formación del civilista: el caso del Derecho contractual. Revista estudiantil de Derecho Privado, 2.',
-    },
-    {
-      referencia: 'Corte Constitucional',
+        'Anaya, N. C. (2004). Diccionario de psicología. Ecoe Ediciones.',
     },
     {
       referencia:
-        'Hinestrosa, F. (2021). El desarrollo doctrinario del derecho civil. Revista De Derecho Privado, 41, 7-17',
-    },
-    {
-      referencia: 'Corte Constitucional (2018) T-241/2018',
-      link:
-        'https://www.corteconstitucional.gov.co/relatoria/2018/t-241-18.htm',
+        'Blanco, M. C. C. (2019). Desarrollo de la adolescencia y la juventud.',
     },
     {
       referencia:
-        'Ortiz Monsalve, A. & Valencia Zea, A. (2021). Derecho civil: parte general y personas Tomo I. Editorial Temis.',
+        'Brugué, M. S., Sànchez, C. R., & Sellabona, E. S. (2008). El desarrollo de los niños, paso a paso (Vol. 121). Editorial UOC.',
     },
     {
       referencia:
-        'Medina Pabón Juan Enrique, & Bibliotecaebook. (n.d.). Derecho Civil. Aproximación al Derecho. Derecho de personas 5 edición. Derecho Civil. Aproximación Al Derecho. Derecho de Personas 5 Edición',
+        'Coronado, S. R. V. (2023). Desarrollo motor: Desde una perspectiva integral. GADE: Revista Científica, 3(4), 299-309.',
+    },
+    {
+      referencia:
+        'Gallahue, D. L., & Ozmun, J. C. (2006). Understanding motor development: Infants, children, adolescents, adults. McGraw-Hill.',
+    },
+    {
+      referencia:
+        'Gallahue, D. L., & Ozmun, J. C. (2012). Understanding motor development: Infants, children, adults. McGraw-Hill.',
+    },
+    {
+      referencia:
+        'Güemes-Hidalgo, M., Ceñal, M., & Hidalgo, M. (2017). Pubertad y adolescencia. Revista de Formación Continuada de la Sociedad Española de Medicina de la Adolescencia, 5(1), 7-22.',
+    },
+    {
+      referencia:
+        'Hyde, J. H., & DeLamater, M. J. (2006). Sexualidad humana (9ª ed.). McGraw-Hill.',
+    },
+    {
+      referencia:
+        'Iverson, J. M., & Thelen, E. (1999). Hand, mouth, and brain: The dynamic emergence of speech and gesture. Journal of Consciousness Studies, 6(11-12), 19-40.',
+    },
+    {
+      referencia:
+        'Johnson, A., & Harris, P. L. (2020). Developing social understanding. In R. J. Sternberg & J. C. Kaufman (Eds.), The Cambridge Handbook of Intelligence (2nd ed., pp. 443-468). Cambridge University Press.',
+    },
+    {
+      referencia:
+        'Lizaso Elgarresta, I., Acha Morcillo, J., & Arruabarrena, L. R. (2018). Desarrollo biológico y cognitivo en el ciclo vital. Difusora Larousse - Ediciones Pirámide.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/123058?page=1',
+    },
+    {
+      referencia:
+        'Mateo, C. M., & Sáez, S. C. (2010). Desarrollo físico y psicomotor en la etapa infantil. Tolosa, San Sebastián.',
     },
   ],
   glosario: [
     {
-      termino: 'Capacidad de obrar',
-      significado:
-        'Es la aptitud de una persona para realizar válidamente actos jurídicos por sí misma. Está relacionada con la posibilidad de ejercer derechos y cumplir obligaciones de forma autónoma. Generalmente se alcanza con la mayoría de edad.',
+      termino: 'Cambios físicos',
+      significado: 'La pubertad, el crecimiento, la maduración sexual.',
     },
     {
-      termino: 'Capacidad jurídica',
+      termino: 'Desarrollo cognitivo',
       significado:
-        'Es la aptitud general para ser titular de derechos y obligaciones desde el nacimiento hasta la muerte. A diferencia de la capacidad de obrar, toda persona natural la posee desde que nace, o en el caso de las personas jurídicas, se posee desde su creación.',
+        'El pensamiento, el aprendizaje, la resolución de problemas.',
     },
     {
-      termino: 'Código Civil',
+      termino: 'Desarrollo socioemocional',
       significado:
-        'Es el conjunto de normas jurídicas que regulan las relaciones privadas entre las personas, abarcando aspectos como los derechos y deberes de los ciudadanos, la propiedad, los contratos, las obligaciones, las sucesiones, entre otros.',
+        'Las relaciones interpersonales, la identidad, la autoestima.',
     },
     {
-      termino: 'Derecho de Bienes y obligaciones',
+      termino: 'Estrógenos',
       significado:
-        'Es la rama del derecho civil que se ocupa de regular la adquisición, uso, disfrute y disposición de los bienes, así como las relaciones jurídicas que generan obligaciones entre las personas, como contratos y deudas.',
+        'Hormonas sexuales femeninas que influyen en el desarrollo de los caracteres sexuales secundarios, como el crecimiento de los senos y el ensanchamiento de las caderas.',
     },
     {
-      termino: 'Derecho de Familia',
-      significado:
-        'Es el conjunto de normas que regula las relaciones jurídicas entre los miembros de una familia, como el matrimonio, la filiación, la patria potestad, la tutela, el divorcio, entre otros aspectos relacionados con la vida familiar.',
+      termino: 'Eyaculación',
+      significado: 'Expulsión de semen durante el orgasmo masculino.',
     },
     {
-      termino: 'Derecho de Personas',
+      termino: 'Factor',
       significado:
-        'Es la parte del derecho civil que se encarga de regular el estado civil, la capacidad, los derechos fundamentales y la personalidad jurídica de los individuos.',
+        'Cualquier elemento o condición que influye en el desarrollo de una persona. Puede ser biológico (genes, hormonas), psicológico (personalidad, emociones), social (familia, amigos) o ambiental (educación, cultura).',
     },
     {
-      termino: 'Derecho Privado',
+      termino: 'Hito',
       significado:
-        'Es la rama del derecho que regula las relaciones entre particulares, es decir, entre personas naturales o jurídicas en su calidad de sujetos de derechos privados. Incluye el derecho civil y el derecho mercantil.',
+        'Un punto de referencia importante en el desarrollo de una persona, que marca un avance significativo en una determinada área (cognitiva, social, emocional o física). Por ejemplo, aprender a caminar, hablar o alcanzar la pubertad.',
     },
     {
-      termino: 'Derecho de Sucesiones',
+      termino: 'Hormonas',
       significado:
-        'Es la rama del derecho civil que regula la transmisión de los bienes, derechos y obligaciones de una persona fallecida a sus herederos o legatarios.',
+        'Sustancias químicas producidas por el cuerpo que regulan diversos procesos fisiológicos, incluyendo el crecimiento, el desarrollo sexual y el metabolismo.',
     },
     {
-      termino: 'Estado civil',
+      termino: 'Lateralidad',
       significado:
-        'Es la situación particular de una persona en cuanto a su posición dentro del derecho de familia. El estado civil incluye categorías como soltero, casado, viudo o divorciado.',
+        'Preferencia por usar una parte del cuerpo (mano, pie, ojo) más que otra. La lateralidad dominante se establece generalmente en la infancia.',
     },
     {
-      termino: 'Fuentes del derecho',
+      termino: 'Menstruación',
       significado:
-        'Son los orígenes o los mecanismos a través de los cuales se crean, modifican o extinguen las normas jurídicas. Entre las principales fuentes del derecho están la ley, la costumbre, la jurisprudencia y los principios generales del derecho.',
+        'Proceso fisiológico femenino que consiste en el sangrado periódico del útero. Es una señal de madurez sexual.',
     },
     {
-      termino: 'Persona Jurídica',
+      termino: 'Motricidad',
       significado:
-        'Ente de creación legal o ficticio capaz de tener derechos y obligaciones, que actúa como una entidad distinta de las personas que la integran.',
+        'Capacidad de realizar movimientos coordinados y precisos. Se divide en: motricidad fina: Movimientos pequeños y precisos, como escribir o abotonarse una camisa. motricidad gruesa: Movimientos amplios del cuerpo, como correr o saltar.',
     },
     {
-      termino: 'Persona Natural',
+      termino: 'Psicomotricidad',
       significado:
-        'Es el ser humano considerado individualmente como sujeto de derechos y obligaciones desde su nacimiento hasta su muerte.',
+        'Relación entre los procesos mentales y los movimientos corporales. Involucra aspectos cognitivos, emocionales y motores.',
     },
     {
-      termino: 'MoodBoard',
+      termino: 'Sexualidad',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Dimensión integral del ser humano que abarca aspectos biológicos, psicológicos y sociales. Incluye el deseo sexual, la identidad de género, las relaciones interpersonales y la reproducción.',
+    },
+    {
+      termino: 'Testosterona',
+      significado:
+        'Hormona sexual masculina que promueve el desarrollo de los caracteres sexuales secundarios, como el crecimiento de la barba y el aumento de la masa muscular.',
     },
   ],
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Desarrollo físico y psicomotor',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Sánchez, F. J., Campos, A. M., Vega, M., Cortés, O., Esparza, M. J., Galbe, J., Gallego, A., García, J., Pallás, C. R., Rando, Á., San Miguel, M. J., Colomer, J., & Mengual, J. M. (2019). Promoción de la actividad física en la infancia y la adolescencia (parte 1). Pediatría Atención Primaria, 21(83), 279-291.',
+      tipo: 'Artículo',
+      link:
+        'http://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1139-76322019000300019&lng=es&tlng=es',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Desarrollo infantil',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Maganto, C., & Cruz, S. (s.f.). Desarrollo físico y psicomotor en la etapa infantil. Facultad de Psicología, Universidad del País Vasco.',
+      tipo: 'PDF',
+      link:
+        'https://isfd112-bue.infd.edu.ar/sitio/wp-content/uploads/2020/07/APUNTE-DESARROLLO-MOTOR-LIBRO-1.pdf',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Pubertad y era digital',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Ballagas Lorenzo, Y., Conde Castro, R. C., Cuba Ortega, S., & Reyes Ortiz, L. D. (s.f.). La pubertad en la era digital. Universidad "Martha Abreu" de las Villas.',
+      tipo: 'Artículo',
+      link: 'https://acupsi.org/la-pubertad-en-la-era-digital/',
     },
   ],
   creditos: [
