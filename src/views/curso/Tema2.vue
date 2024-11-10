@@ -3,7 +3,7 @@
   BannerInterno.text-uppercase(:titulo="'Unidad 1. Desarrollo Físico y Motor en Niños y Adolescentes'" :subTitulo="'2. Etapas del crecimiento físico'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .row.mb-5
+    .row.mb-5.mx-0
       .d-none.d-xl-block.col-4.px-0
         img.h-100(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')
       .col-12.col-xl-8.d-flex.align-items-center.bg-ppal-amarillo-claro.p-4
@@ -68,7 +68,8 @@
     
     .row.mb-5.bg-fondo-2.bg-full-width
       div.px-4.px-md-5.pb-md-3
-        h1.mb-4.pb-2 Infancia temprana (0-2 años)
+        #t_2_1.titulo-segundo.color-secundario
+          h1 2.1 Infancia temprana (0-2 años)
         p.mb-4(data-aos="fade-up") La <strong>infancia temprana</strong> es un periodo caracterizado por <strong>cambios físicos rápidos y profundos</strong>. Desde el nacimiento, un bebé experimenta un crecimiento significativo. Papalia y Feldman (2012) afirman que “los recién nacidos tienen características distintivas, como cabeza grande (un cuarto de toda su estatura) y barbilla hundida (que facilita la lactancia)” (p. 102). Al nacer, la cabeza del bebé puede parecer más grande y de una forma diferente a la esperada. Esto se debe a que, durante el parto, los huesos de su cráneo, aún blandos, se amoldan para poder atravesar el canal de parto. Con el tiempo, estos huesos se fusionan, y la cabeza adquiere una forma más redondeada.
         p.mb-5 El desarrollo físico durante los primeros meses es:
         .row
@@ -84,15 +85,16 @@
               div.mb-4
                 p.fs-18px.text-bold.text-center Desarrollo motor
                 p.px-4.text-center.pb-2 Durante esta etapa, el control motor comienza a desarrollarse. Inicialmente, los bebés no son capaces de sostener su cabeza, pero, a medida que crecen, empiezan a levantarla y girarla. A los 3 meses, la mayoría puede mantener la cabeza en posición vertical. Al cumplir un año, muchos comienzan a gatear y algunos incluso a caminar.
-    .row.mb-5
-      h1.mb-5.pb-2 Desarrollo entre los 12 y 18 meses
+    #t_2_2.titulo-segundo.color-secundario
+      h1 2.2 Desarrollo entre los 12 y 18 meses
+    .row.mb-5.mx-0
       .d-none.d-xl-block.col-4.px-0
         img.h-100(src='@/assets/curso/unidad/img-24.png', alt='Texto que describa la imagen')
       .col-12.col-xl-8.d-flex.align-items-center.bg-ppal-azul-primary.p-4
         p.fs-18px.mb-0(data-aos="fade-up") Entre los 12 y 18 meses, los niños presentan un crecimiento significativo en su <strong>desarrollo físico</strong>; muchos ya logran dar sus primeros pasos, aunque con apoyo. A medida que se acercan a los 18 meses, su <strong>equilibrio mejora</strong>, lo que les permite caminar con mayor confianza y explorar su entorno. Este aumento en la <strong>movilidad</strong> no solo resulta emocionante para ellos, sino que también les motiva a interactuar más con su entorno y con otras personas.
 
-    .row.mb-5
-      h1.mb-5.pb-2 Importancia de la estimulación temprana
+    h1.mb-5.pb-2 Importancia de la estimulación temprana
+    .row.mb-5.mx-0
       .col-12.col-xl-8.d-flex.align-items-center.bg-ppal-amarillo-claro.p-4
         p.fs-18px.mb-0 Es fundamental señalar que cada niño puede alcanzar estos hitos a su propio ritmo. Algunos pueden caminar antes que otros, y esto es completamente normal. Lo importante es <strong>brindarles un entorno seguro y motivador</strong>. La <strong>estimulación temprana</strong> desempeña un papel crucial. La interacción con el entorno, a través de <strong>juegos, música</strong> o simples <strong>conversaciones</strong>, contribuye a fortalecer las <strong>conexiones neuronales</strong>.
       .d-none.d-xl-block.col-4.px-0
@@ -101,7 +103,7 @@
     .row.mb-5.bg-fondo-3.bg-full-width
       div.px-4.px-md-5.pb-md-3
         h1.mb-5.pb-2 Habla dirigida al bebé
-        .row.mb-5
+        .row.mb-5.mx-0
           .d-none.d-xl-block.col-4.px-0
             img.h-100(src='@/assets/curso/unidad/img-26.png', alt='Texto que describa la imagen')
           .col-12.col-xl-8.d-flex.align-items-center.bg-ppal-azul-oscuro.p-4
@@ -121,8 +123,9 @@
                 p.fs-18px.text-bold.text-center Experiencias sensoriales
                 p.px-4.text-center.pb-2 Tocar diferentes texturas es fundamental para el <strong>desarrollo integral</strong> del niño, ya que contribuye a su conocimiento del mundo y a la estimulación de sus sentidos.
 
+    #t_2_3.titulo-segundo.color-secundario
+      h1 2.3 Infancia media (2-6 años)
     .row.mb-5
-      h1.mb-4.pb-2 Infancia media (2-6 años)
       p.fs-18px.mb-4 Los ejemplos de las reformas muestran que incluso existiendo el Código Civil colombiano desde 1887, este se ha adaptado a las nuevas realidades del país y a los cambios configurados en las relaciones entre los sujetos.
       .d-none.d-xl-block.col-auto.col-xl-4.mx-auto.mt-4.mt-xl-0
         figure
@@ -172,7 +175,7 @@
           div.mb-4
             p.px-4.text-center.py-3 <strong>Juego y habilidades sociales</strong>. Estas actividades también enseñan habilidades sociales, como el trabajo en equipo.
 
-    .row.mb-5
+    .row.mb-5.mx-0
       p.fs-18px.mb-4.pb-2 Las recomendaciones de actividad física son: 
       div.bg-ppal-amarillo-claro.d-flex.align-items-center
         .col-12.col-xl-6.px-4
@@ -190,8 +193,9 @@
     .row.mb-5
       p.fs-18px En conjunto, la infancia media es un periodo clave para el desarrollo físico, emocional y social de los niños, en el que las actividades motoras y el juego desempeñan un papel central.
 
-    .row.mb-5
-      h1.mb-4.pb-2 Infancia tardía (6-12 años)
+    #t_2_4.titulo-segundo.color-secundario
+      h1 2.4 Infancia tardía (6-12 años)
+    .row.mb-5.mx-0
       .d-none.d-xl-block.col-4.px-0
         img.h-100(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')
       .col-12.col-xl-8.d-flex.align-items-center.bg-ppal-azul-oscuro.p-4
@@ -227,8 +231,9 @@
     .row.mb-5
       p.fs-18px En conclusión, la infancia tardía es un periodo de crecimiento gradual y desarrollo físico continuo, donde la <strong>alimentación</strong>, la <strong>actividad física</strong> y un entorno <strong>afectivo y seguro</strong> juegan un papel central para un desarrollo integral.
 
+    #t_2_5.titulo-segundo.color-secundario
+      h1 2.5 Adolescente (12 y 18 Años)
     .row.mb-5
-      h1.mb-4.pb-2 Adolescente (12 y 18 Años)
       p.fs-18px Siguiendo el hilo conductor, la <strong>adolescencia</strong>, que abarca aproximadamente entre los <strong>12 y 18 años</strong>, es una etapa de <strong>cambios significativos</strong> en el desarrollo físico, marcada por la transición de la niñez a la adultez. Es un período crucial, donde se experimentan cambios visibles y profundos en el cuerpo y la percepción de sí mismos.
 
     .row.position-relative.mb-5.bg-fondo-1.bg-full-width

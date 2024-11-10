@@ -43,6 +43,38 @@ export default {
         numero: '2.',
         titulo: 'Etapas del crecimiento físico',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Infancia temprana (0-2 años)',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Desarrollo entre los 12 y 18 meses',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Infancia media (2-6 años)',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Infancia tardía (6-12 años)',
+            hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'Adolescente (12 y 18 Años)',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
@@ -50,6 +82,32 @@ export default {
         numero: '3.',
         titulo: 'Diferenciación entre personas naturales y jurídicas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Infancia temprana (0-2 años)',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Infancia media (2-6 años)',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Infancia tardía (6-12 años)',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Adolescencia',
+            hash: 't_3_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
@@ -57,6 +115,15 @@ export default {
         numero: '4.',
         titulo: 'Cambios hormonales y sexuales en la pubertad',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo:
+              'Desarrollo de los órganos sexuales primarios y secundarios',
+            hash: 't_4_1',
+          },
+        ],
       },
     ],
     subMenu: [
