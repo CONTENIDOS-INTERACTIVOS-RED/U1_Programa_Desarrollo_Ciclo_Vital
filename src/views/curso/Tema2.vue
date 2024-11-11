@@ -68,8 +68,13 @@
     
     .row.mb-5.bg-fondo-2.bg-full-width
       div.px-4.px-md-5.pb-md-3
-        #t_2_1.titulo-segundo.color-secundario
-          h1 2.1 Infancia temprana (0-2 años)
+        #t_2_1.titulo-segundo
+          div.d-flex
+            span.me-3 2.1  
+            h2 Infancia temprana (0-2 años)
+
+
+
         p.mb-4(data-aos="fade-up") La <strong>infancia temprana</strong> es un periodo caracterizado por <strong>cambios físicos rápidos y profundos</strong>. Desde el nacimiento, un bebé experimenta un crecimiento significativo. Papalia y Feldman (2012) afirman que “los recién nacidos tienen características distintivas, como cabeza grande (un cuarto de toda su estatura) y barbilla hundida (que facilita la lactancia)” (p. 102). Al nacer, la cabeza del bebé puede parecer más grande y de una forma diferente a la esperada. Esto se debe a que, durante el parto, los huesos de su cráneo, aún blandos, se amoldan para poder atravesar el canal de parto. Con el tiempo, estos huesos se fusionan, y la cabeza adquiere una forma más redondeada.
         p.mb-5 El desarrollo físico durante los primeros meses es:
         .row
@@ -85,8 +90,13 @@
               div.mb-4
                 p.fs-18px.text-bold.text-center Desarrollo motor
                 p.px-4.text-center.pb-2 Durante esta etapa, el control motor comienza a desarrollarse. Inicialmente, los bebés no son capaces de sostener su cabeza, pero, a medida que crecen, empiezan a levantarla y girarla. A los 3 meses, la mayoría puede mantener la cabeza en posición vertical. Al cumplir un año, muchos comienzan a gatear y algunos incluso a caminar.
-    #t_2_2.titulo-segundo.color-secundario
-      h1 2.2 Desarrollo entre los 12 y 18 meses
+    
+    #t_2_2.titulo-segundo
+      div.d-flex
+        span.me-3 2.2  
+        h2 Desarrollo entre los 12 y 18 meses
+
+
     .row.mb-5.mx-0
       .d-none.d-xl-block.col-4.px-0
         img.h-100(src='@/assets/curso/unidad/img-24.png', alt='Texto que describa la imagen')
@@ -123,8 +133,11 @@
                 p.fs-18px.text-bold.text-center Experiencias sensoriales
                 p.px-4.text-center.pb-2 Tocar diferentes texturas es fundamental para el <strong>desarrollo integral</strong> del niño, ya que contribuye a su conocimiento del mundo y a la estimulación de sus sentidos.
 
-    #t_2_3.titulo-segundo.color-secundario
-      h1 2.3 Infancia media (2-6 años)
+    #t_2_3.titulo-segundo
+      div.d-flex
+        span.me-3 2.3  
+        h2 Infancia media (2-6 años)
+
     .row.mb-5
       p.fs-18px.mb-4 Los ejemplos de las reformas muestran que incluso existiendo el Código Civil colombiano desde 1887, este se ha adaptado a las nuevas realidades del país y a los cambios configurados en las relaciones entre los sujetos.
       .d-none.d-xl-block.col-auto.col-xl-4.mx-auto.mt-4.mt-xl-0
@@ -193,8 +206,11 @@
     .row.mb-5
       p.fs-18px En conjunto, la infancia media es un periodo clave para el desarrollo físico, emocional y social de los niños, en el que las actividades motoras y el juego desempeñan un papel central.
 
-    #t_2_4.titulo-segundo.color-secundario
-      h1 2.4 Infancia tardía (6-12 años)
+    #t_2_4.titulo-segundo
+      div.d-flex
+        span.me-3 2.4  
+        h2 Infancia tardía (6-12 años)
+
     .row.mb-5.mx-0
       .d-none.d-xl-block.col-4.px-0
         img.h-100(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')
@@ -231,8 +247,11 @@
     .row.mb-5
       p.fs-18px En conclusión, la infancia tardía es un periodo de crecimiento gradual y desarrollo físico continuo, donde la <strong>alimentación</strong>, la <strong>actividad física</strong> y un entorno <strong>afectivo y seguro</strong> juegan un papel central para un desarrollo integral.
 
-    #t_2_5.titulo-segundo.color-secundario
-      h1 2.5 Adolescente (12 y 18 Años)
+    #t_2_5.titulo-segundo
+      div.d-flex
+        span.me-3 2.5  
+        h2 Adolescente (12 y 18 Años)
+
     .row.mb-5
       p.fs-18px Siguiendo el hilo conductor, la <strong>adolescencia</strong>, que abarca aproximadamente entre los <strong>12 y 18 años</strong>, es una etapa de <strong>cambios significativos</strong> en el desarrollo físico, marcada por la transición de la niñez a la adultez. Es un período crucial, donde se experimentan cambios visibles y profundos en el cuerpo y la percepción de sí mismos.
 

@@ -39,8 +39,11 @@
       .col-5.d-none.d-xl-block
         img(src='@/assets/curso/unidad/img-49.png', alt='Texto que describa la imagen')
 
-    #t_3_1.titulo-segundo.color-secundario
-      h1 3.1 Infancia temprana (0-2 años)
+    #t_3_1.titulo-segundo
+      div.d-flex
+        span.me-3 3.1  
+        h2 Infancia temprana (0-2 años)
+    
     .row.mb-5.mx-0
       p.mb-4.pb-2(data-aos="fade-up") Iniciemos con la infancia temprana, donde los bebés atraviesan una serie de hitos motores fundamentales (Ramos y Ramos, 2021). Al principio, los recién nacidos presentan movimientos reflejos que les permiten interactuar con su entorno. A medida que crecen, comienzan a desarrollar habilidades más complejas:
       div.bg-ppal-morado.d-flex.align-items-center.text-white.px-0.mb-5
@@ -59,8 +62,11 @@
 
       p Entre los factores que influyen en esta etapa, destacan la genética y el ambiente. La herencia tiene un papel relevante en el desarrollo motor, ya que algunos niños pueden alcanzar hitos de manera más rápida debido a factores genéticos. En cuanto al ambiente, un entorno estimulante, con espacio adecuado para moverse y explorar, favorece el desarrollo motor. Además, la interacción con los cuidadores resulta fundamental, ya que estimula la curiosidad y el aprendizaje de nuevas habilidades.
     
-    #t_3_2.titulo-segundo.color-secundario
-      h1 3.2 Infancia media (2-6 años)
+    #t_3_2.titulo-segundo
+      div.d-flex
+        span.me-3 3.2  
+        h2 Infancia media (2-6 años)
+    
     .row.mb-4
       p(data-aos="fade-up") En esta segunda etapa, es fundamental recordar que, en los primeros años de vida, la forma en que nos movemos y coordinamos nuestro cuerpo influye significativamente en cómo aprendemos y crecemos. Según Smith et al. (2018), el desarrollo de las habilidades motoras está estrechamente vinculado al desarrollo cerebral y a la capacidad de adquirir nuevos conocimientos. Además, como señalan Johnson y Harris (2020), aprender a moverse y coordinar el cuerpo contribuye al desarrollo de habilidades sociales y emocionales, ya que facilita la interacción con quienes nos rodean y la formación de vínculos afectivos.
     .row.mx-0.mb-5
@@ -80,9 +86,11 @@
           img(src='@/assets/curso/unidad/img-51.png', alt='Texto que describa la imagen')
       p En este momento, el juego se convierte en un componente esencial para el desarrollo motor. A través de actividades lúdicas, los niños fortalecen su fuerza, equilibrio y coordinación. Asignaturas como la educación física y la participación en programas deportivos y culturales pueden fomentar el desarrollo motor y contribuir a mejorar la autoestima, ya que les brindan la oportunidad de descubrir sus habilidades y sentirse competentes en lo que hacen.
 
+    #t_3_3.titulo-segundo
+      div.d-flex
+        span.me-3 3.3  
+        h2 Infancia tardía (6-12 años)
 
-    #t_3_3.titulo-segundo.color-secundario
-      h1 3.3 Infancia tardía (6-12 años)
     .row.mb-4
       p(data-aos="fade-up") Ya en la infancia tardía, los niños se vuelven más activos y sus habilidades motoras se refinan aún más. Alrededor de los 6 años, ya pueden realizar muchas actividades con bastante precisión. A partir de los 7 años, sus movimientos se vuelven más precisos y coordinados (Mateo y Sáez, 2010). Esto se debe a que su cerebro y su sistema nervioso están aprendiendo a controlar los músculos de manera más eficiente. Por ejemplo, al aprender a tocar un instrumento, inicialmente los dedos se moverán de forma lenta y torpe, pero con la práctica, se logra tocar las notas con rapidez y precisión. 
     .row.mx-0.mb-4
@@ -125,8 +133,11 @@
               figure
                 img(src='@/assets/curso/unidad/img-55.png', alt='Texto que describa la imagen')
 
-    #t_3_4.titulo-segundo.color-secundario
-      h1 3.4 Adolescencia
+    #t_3_4.titulo-segundo
+      div.d-flex
+        span.me-3 3.4  
+        h2 Adolescencia
+    
     .row.mb-4
       p(data-aos="fade-up") Pasando a otro aspecto del desarrollo motor, este desempeña un papel crucial en la salud integral de los adolescentes. Según Malina y Bouchard (2017), durante la adolescencia se produce un crecimiento acelerado que requiere un desarrollo motor adecuado para fortalecer los músculos y los huesos. Además, como señalan Stodden et al. (2018), el desarrollo de habilidades motoras está estrechamente relacionado con el bienestar psicológico, lo cual contribuye a una mayor autoestima y satisfacción personal.
 

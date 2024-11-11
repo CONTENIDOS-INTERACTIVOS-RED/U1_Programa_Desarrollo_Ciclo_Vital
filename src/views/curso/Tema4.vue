@@ -73,8 +73,11 @@
                   img(src='@/assets/curso/unidad/img-68.png', alt='Texto que describa la imagen')
       .row.mb-5
         p.fs-18px(data-aos="fade-up") La edad a la que comienza la pubertad varía considerablemente entre los individuos, aunque existe un rango considerado normal (Güemes et al., 2017). En las últimas décadas, se ha observado una tendencia hacia un inicio cada vez más temprano de la pubertad, fenómeno conocido como tendencia secular del crecimiento. Se ha sugerido que esta aceleración podría estar relacionada con mejoras en las condiciones de vida, como una mejor nutrición, aunque su ritmo parece haberse desacelerado en los últimos años.
-      #t_4_1.titulo-segundo.color-secundario
-        h1 4.1 Desarrollo de los órganos sexuales primarios y secundarios
+
+      #t_4_1.titulo-segundo
+        div.d-flex
+          span.me-3 4.1  
+          h2 Desarrollo de los órganos sexuales primarios y secundarios
 
       .row.mb-5.mx-0
         .d-none.d-xl-block.col-4.px-0
