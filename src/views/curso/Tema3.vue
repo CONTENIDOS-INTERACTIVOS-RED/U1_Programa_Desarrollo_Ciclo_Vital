@@ -17,14 +17,14 @@
           p.text-bold.mb-3 Generalidades del desarrollo motor
           p.mb-4 Para iniciar, se invita a revisar el siguiente video de la profesora Eliana Peñaloza. En este material, se podrá apreciar cómo el desarrollo motor está estrechamente vinculado al aprendizaje, la salud y el bienestar. El video aborda los conceptos básicos del desarrollo motor, los patrones motores y la relevancia de la motricidad gruesa.
           p Peñaloza, S. E R. [@CeduUninorte]. (2021, febrero 2). Generalidades del desarrollo motor [Video]. <strong>YouTube. https://www.youtube.com/watch?v=XhSv5Vt1pfg</strong>
-        .col-4.col-lg-2.btn-ppal.mt-4.mt-md-5.ms-md-4.ms-lg-0.ms-xxl-5
+        .col-4.col-lg-2.btn-ppal.mt-4.mt-md-5.ms-md-4.ms-lg-0.ms-xxl-5(data-aos="zoom-in")
           div(style="width: 140px ; height: 44px")
             a.anexo.px-3.py-2.bg-ppal-azul-primary.box-shadow.cursor-pointer.color-ppal(href="https://wwww.youtube.com/watch?v=XhSv5Vt1pfg" target="_blank") Ver video
               i.fas.fa-arrow-right.ms-2.color-ppal.mt-1
 
     .row.mb-5
       p.mb-4.pb-2(data-aos="fade-down") Después de haber visto el video y con una comprensión más clara del contenido de este apartado de la unidad, es momento de reflexionar sobre todas las habilidades que se pueden realizar con el cuerpo: <strong>caminar, saltar, escribir, practicar deportes...</strong> ¡Todas estas habilidades se deben al <strong>desarrollo motor!</strong> Como menciona <strong>Piaget (1967)</strong>, “el desarrollo motor es un proceso que comienza en el nacimiento y continúa a través de varias etapas a lo largo de la vida” (p. 45). A través del desarrollo de estas habilidades, no solo se explora el mundo circundante, sino que también se logra una <strong>mayor independencia y seguridad personal</strong>:
-      .col-12.col-xl-7
+      .col-12.col-xl-7(data-aos="fade-right")
         AcordionA(tipo="b")
           .div(titulo="Desarrollo motor: un proceso complejo")
             p.px-2.mb-0 El desarrollo de los movimientos es un proceso que involucra el crecimiento y la maduración de los sistemas nervioso, muscular y esquelético (Gallahue y Ozmun, 2006). A medida que se adquieren nuevas habilidades motoras, el cerebro se vuelve más eficiente en la planificación y ejecución de movimientos, facilitando la adaptación a nuevas situaciones y desafíos físicos.
@@ -47,7 +47,7 @@
     .row.mb-5.mx-0
       p.mb-4.pb-2(data-aos="fade-up") Iniciemos con la infancia temprana, donde los bebés atraviesan una serie de hitos motores fundamentales (Ramos y Ramos, 2021). Al principio, los recién nacidos presentan movimientos reflejos que les permiten interactuar con su entorno. A medida que crecen, comienzan a desarrollar habilidades más complejas:
       div.bg-ppal-morado.d-flex.align-items-center.text-white.px-0.mb-5
-        .col-12.col-xl-8.py-4.ps-5.pe-4
+        .col-12.col-xl-8.py-4.ps-5.pe-4(data-aos="flip-right")
           div.d-flex.mb-2
             i.fas.fa-baby.me-2.mt-1
             p.mb-0 0-3 meses. Los bebés levantan la cabeza mientras están boca abajo y empiezan a girar.
@@ -70,7 +70,7 @@
     .row.mb-4
       p(data-aos="fade-up") En esta segunda etapa, es fundamental recordar que, en los primeros años de vida, la forma en que nos movemos y coordinamos nuestro cuerpo influye significativamente en cómo aprendemos y crecemos. Según Smith et al. (2018), el desarrollo de las habilidades motoras está estrechamente vinculado al desarrollo cerebral y a la capacidad de adquirir nuevos conocimientos. Además, como señalan Johnson y Harris (2020), aprender a moverse y coordinar el cuerpo contribuye al desarrollo de habilidades sociales y emocionales, ya que facilita la interacción con quienes nos rodean y la formación de vínculos afectivos.
     .row.mx-0.mb-5
-      div.bg-ppal-azul-oscuro.d-flex.align-items-center.px-0.mb-5
+      div.bg-ppal-azul-oscuro.d-flex.align-items-center.px-0.mb-5(data-aos="flip-left")
         .col-12.col-xl-8.py-4.ps-5.pe-4
           p.mb-4 Continuando con la infancia media, algunos hitos relevantes en el desarrollo motor durante esta etapa son los siguientes:
           div.d-flex.mb-2
@@ -94,7 +94,7 @@
     .row.mb-4
       p(data-aos="fade-up") Ya en la infancia tardía, los niños se vuelven más activos y sus habilidades motoras se refinan aún más. Alrededor de los 6 años, ya pueden realizar muchas actividades con bastante precisión. A partir de los 7 años, sus movimientos se vuelven más precisos y coordinados (Mateo y Sáez, 2010). Esto se debe a que su cerebro y su sistema nervioso están aprendiendo a controlar los músculos de manera más eficiente. Por ejemplo, al aprender a tocar un instrumento, inicialmente los dedos se moverán de forma lenta y torpe, pero con la práctica, se logra tocar las notas con rapidez y precisión. 
     .row.mx-0.mb-4
-      div.bg-ppal-morado.d-flex.align-items-center.text-white.px-0.mb-5
+      div.bg-ppal-morado.d-flex.align-items-center.text-white.px-0.mb-5(data-aos="flip-left")
         .col-12.col-xl-8.py-4.ps-5.pe-4
           p.mb-5 Algunos hitos de esta etapa incluyen:
           div.d-flex.mb-4
@@ -115,7 +115,7 @@
             .col-md-12.col-lg-7.mb-4.mb-md-0
               p.text-bold Desarrollo psicomotor
               p La psicomotricidad es una disciplina que estudia cómo el cuerpo y la mente interactúan y trabajan en conjunto. Autores como García y Martínez (1991) destacan esta interrelación como el núcleo de la psicomotricidad. Otros estudiosos, como Cobos (1999) y Picq y Vayer (1977), amplían esta definición al incluir técnicas que permiten a los niños desarrollarse de manera integral. La psicomotricidad es esencial, ya que nos ayuda a entender cómo el movimiento y el aprendizaje se vinculan y cómo esta conexión puede facilitar el aprendizaje en los niños.
-            .d-none.d-lg-block.col-md-6.col-lg-4
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="flip-down")
               figure
                 img(src='@/assets/curso/unidad/img-53.png', alt='Texto que describa la imagen')
           .row.p-4.px-md-5.py-lg-5
@@ -143,7 +143,7 @@
 
     .row.mb-4.mx-0
       div.bg-ppal-azul-oscuro.d-flex.align-items-center.px-0.mb-5
-        .col-12.col-xl-8.py-4.ps-5.pe-4
+        .col-12.col-xl-8.py-4.ps-5.pe-4(data-aos="fade-right")
           p.mb-5 Algunos de los hitos relevantes en esta etapa son:
           div.d-flex.mb-4
             i.fas.fa-baby.me-2.mt-1
@@ -158,7 +158,7 @@
     TabsC.color-primario
       .tabs-content.bg-ppal-amarillo.border.px-4.p-md-5.py-3(titulo="Factores hormonales")
         .row
-          .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4
+          .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4(data-aos="flip-up")
             figure
               img(src='@/assets/curso/unidad/img-59.png', alt='Texto que describa la imagen')
           .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0

@@ -38,7 +38,7 @@
       .d-flex.align-items-center
         div.d-flex.align-items-center.bg-ppal-amarillo-claro.px-3.py-4
           img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-07.svg', alt='Texto que describa la imagen')
-          p.fs-18px.pe-xl-3.mb-0 Estudiar el desarrollo físico y motor en niños y adolescentes implica considerar estas perspectivas y características. Comprender la interacción entre factores biológicos y psicológicos permite a los educadores ser más competentes y apoyar el desarrollo integral de sus estudiantes.
+          p.fs-18px.pe-xl-3.mb-0(data-aos="fade-right") Estudiar el desarrollo físico y motor en niños y adolescentes implica considerar estas perspectivas y características. Comprender la interacción entre factores biológicos y psicológicos permite a los educadores ser más competentes y apoyar el desarrollo integral de sus estudiantes.
 
 </template>
 

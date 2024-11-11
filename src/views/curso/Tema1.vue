@@ -15,7 +15,7 @@
             .col-md-12.col-lg-7.mb-4.mb-md-0
               p.fs-18px.text-bold Perspectiva biológica
               p.fs-18px Desde la perspectiva biológica, el desarrollo se refiere a los cambios físicos y fisiológicos que se experimentan a lo largo de la vida, como el crecimiento corporal, el desarrollo cerebral y la maduración de los sistemas orgánicos.
-            .d-none.d-lg-block.col-md-6.col-lg-4
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="flip-up")
               figure
                 img(src='@/assets/curso/unidad/img-09.png', alt='Texto que describa la imagen')
           .row.p-4.px-md-5.py-lg-5
@@ -41,7 +41,7 @@
       TabsC.color-primario
         .tabs-content.border.px-4.p-md-5.py-3(titulo="Genética")
           .row
-            .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4
+            .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4(data-aos="flip-up")
               figure
                 img(src='@/assets/curso/unidad/img-12.png', alt='Texto que describa la imagen')
             .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0
@@ -68,7 +68,7 @@
       .d-flex.align-items-center
         div.d-flex.align-items-center.bg-ppal-azul-primary.px-3.py-4
           img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-18.svg', alt='Texto que describa la imagen')
-          p.fs-18px.pe-xl-3.mb-0(data-aos="fade-down") Estudiar el desarrollo físico y motor en niños y adolescentes implica considerar estas perspectivas y características. Comprender la interacción entre factores biológicos y psicológicos permite a los educadores ser más competentes y apoyar el desarrollo integral de sus estudiantes.
+          p.fs-18px.pe-xl-3.mb-0(data-aos="fade-left") Estudiar el desarrollo físico y motor en niños y adolescentes implica considerar estas perspectivas y características. Comprender la interacción entre factores biológicos y psicológicos permite a los educadores ser más competentes y apoyar el desarrollo integral de sus estudiantes.
 </template>
 
 <script>

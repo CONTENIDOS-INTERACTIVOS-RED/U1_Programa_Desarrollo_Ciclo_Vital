@@ -6,19 +6,19 @@
         p.fs-18px Todos hemos vivido un momento en la vida en el que nos sentimos invencibles. Sin embargo, la pubertad nos recuerda nuestra naturaleza humana y la importancia de aceptar los cambios como parte natural del crecimiento. En esta sesión, exploramos  juntos los aspectos más relevantes de este proceso. Para comenzar, se invita a leer el cuento La Mariposa y la Crisálida, una historia que nos ayudará a comprender mejor los cambios que estamos viviendo.
 
       .row.mb-5.p-4.p-lg-5.bg-fondo-4
-        .col-12.mb-0.mb-lg-4
+        .col-12.mb-0.mb-lg-4(data-aos="flip-up")
           div.d-flex.justify-content-center
             p.text-bold.title__tema La mariposa y la crisálida
-        .col-12.col-lg-8
+        .col-12.col-lg-8(data-aos="fade-right")
           p.fs-18px Había una vez una pequeña oruga que vivía en una hoja. Era feliz masticando hojas y explorando su pequeño mundo. Pero un día, empezó a sentir cosquillas en todo su cuerpo. Crecía y crecía, y su piel se sentía muy ajustada. Decidió que era hora de construir un hogar seguro, así que tejió un capullo alrededor de sí misma.
           p.fs-18px Dentro del capullo, la oruga se sentía extraña y un poco asustada. Su cuerpo comenzaba a cambiar de una manera que no entendía. Se sentía hinchada y adolorida. 
-        .d-none.d-lg-block.col-lg-4
+        .d-none.d-lg-block.col-lg-4(data-aos="fade-left")
           img(src='@/assets/curso/unidad/img-62.png', alt='Texto que describa la imagen')
-        .col-12.my-4.my-lg-5
+        .col-12.my-4.my-lg-5(data-aos="flip-up")
           p.fs-18px A veces, sentía como si su cuerpo se desintegrara. Tenía miedo de lo que podría convertirse. Se preguntaba si alguna vez volvería a sentir la luz del sol o el viento en su cara. Pero, a pesar de sus miedos, la oruga también sentía emoción. Sabía que algo grande estaba por suceder. Se imaginaba volando de flor en flor, sintiendo la brisa en sus alas y viendo el mundo desde una perspectiva completamente nueva. Con el tiempo, los cambios se hicieron más intensos. La oruga sentía que estaba renaciendo. 
-        .d-none.d-lg-block.col-lg-4
+        .d-none.d-lg-block.col-lg-4(data-aos="fade-right")
           img(src='@/assets/curso/unidad/img-63.png', alt='Texto que describa la imagen')
-        .col-12.col-lg-8
+        .col-12.col-lg-8(data-aos="fade-left")
           p.fs-18px Sus patas se transformaban en alas, su cuerpo se volvía más ligero y sus colores cambiaban. Era como si estuviera dentro de una máquina mágica que la transformaba en algo completamente diferente.
           p.fs-18px Finalmente, llegó el momento de salir del capullo. Con un gran esfuerzo, la mariposa rompió la envoltura y salió al mundo. Al principio, sus alas estaban húmedas y arrugadas, pero pronto se secaron y se estiraron. La mariposa alzó el vuelo y se maravilló ante la belleza del mundo que la rodeaba.
         
@@ -54,7 +54,7 @@
               .col-md-12.col-lg-7.mb-4.mb-md-0
                 p.fs-18px.text-bold La pubertad
                 p.fs-18px La pubertad es un proceso biológico complejo que marca el inicio de la madurez sexual. El término "pubertad" proviene del latín y hace referencia al desarrollo del vello púbico (Güemes et al., 2017). Este periodo se caracteriza por una serie de cambios físicos y hormonales significativos que son esenciales para el desarrollo sexual y reproductivo. Generalmente, la pubertad ocurre entre los 10 y 14 años en las chicas y entre los 12 y 16 años en los chicos.
-              .d-none.d-lg-block.col-md-6.col-lg-4
+              .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="flip-up")
                 figure
                   img(src='@/assets/curso/unidad/img-66.png', alt='Texto que describa la imagen')
             .row.p-4.px-md-5.py-lg-5
@@ -82,7 +82,7 @@
       .row.mb-5.mx-0
         .d-none.d-xl-block.col-4.px-0
           img.h-100(src='@/assets/curso/unidad/img-69.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8.d-flex.align-items-center.bg-ppal-amarillo-claro.p-4
+        .col-12.col-xl-8.d-flex.align-items-center.bg-ppal-amarillo-claro.p-4(data-aos="fade-left")
           p.fs-18px.mb-0 Continuando con el tema, hablaremos ahora sobre el desarrollo de los órganos sexuales primarios. Los ovarios y los testículos maduran y comienzan a funcionar, lo cual es fundamental para la producción de hormonas sexuales que jugarán un papel esencial en los cambios que se experimentan durante la pubertad. Además, los órganos sexuales secundarios, como el desarrollo de los senos en las chicas y el aumento del tamaño del pene en los chicos, también se manifiestan. Estos cambios son visibles y pueden influir en la forma en que los adolescentes se perciben a sí mismos y se relacionan con los demás.
         
       .tarjeta.box-shadow.p-3.mb-5
@@ -94,7 +94,7 @@
               .col.mb-3.mb-sm-0
                 p.text-bold.mb-3 Desarrollo de los órganos sexuales primarios y secundarios
                 p.text-small Lo invitamos a consultar el documento Desarrollo de los órganos sexuales primarios y secundarios para produndizar sobre el desarrollo de los órganos sexuales en los niños y adolescentes así como los cambios que se experimentan durante la pubertad.
-              .col-sm-auto
+              .col-sm-auto(data-aos="zoom-in")
                 a.download-btn.boton.color-acento-contenido.text-white(:href="obtenerLink('/downloads/Anexos_Desarrollo_de_los_organos_sexuales_primarios_y_secundarios.pdf')" target="_blank")
                   span.text-small Descargar
                   i.fas.fa-arrow-right

@@ -78,18 +78,18 @@
         p.mb-4(data-aos="fade-up") La <strong>infancia temprana</strong> es un periodo caracterizado por <strong>cambios físicos rápidos y profundos</strong>. Desde el nacimiento, un bebé experimenta un crecimiento significativo. Papalia y Feldman (2012) afirman que “los recién nacidos tienen características distintivas, como cabeza grande (un cuarto de toda su estatura) y barbilla hundida (que facilita la lactancia)” (p. 102). Al nacer, la cabeza del bebé puede parecer más grande y de una forma diferente a la esperada. Esto se debe a que, durante el parto, los huesos de su cráneo, aún blandos, se amoldan para poder atravesar el canal de parto. Con el tiempo, estos huesos se fusionan, y la cabeza adquiere una forma más redondeada.
         p.mb-5 El desarrollo físico durante los primeros meses es:
         .row
-          .col-10.col-md-6.mb-4.mb-md-0.mx-auto
+          .col-10.col-md-6.mb-4.mb-md-0.mx-auto(data-aos="fade-right")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-22.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.fs-18px.text-bold.text-center Crecimiento y peso
-                p.px-4.text-center.pb-2 En los primeros meses, los recién nacidos pasan de pesar alrededor de 3 kg a cerca de 6 kg al cumplir seis meses. Este aumento de peso es esencial, ya que proporciona la energía necesaria para el desarrollo del cerebro y otros órganos.
-          .col-10.col-md-6.mb-4.mb-md-0.mx-auto
+                p.text-small.px-4.text-center.pb-2 En los primeros meses, los recién nacidos pasan de pesar alrededor de 3 kg a cerca de 6 kg al cumplir seis meses. Este aumento de peso es esencial, ya que proporciona la energía necesaria para el desarrollo del cerebro y otros órganos.
+          .col-10.col-md-6.mb-4.mb-md-0.mx-auto(data-aos="fade-left")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-23.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.fs-18px.text-bold.text-center Desarrollo motor
-                p.px-4.text-center.pb-2 Durante esta etapa, el control motor comienza a desarrollarse. Inicialmente, los bebés no son capaces de sostener su cabeza, pero, a medida que crecen, empiezan a levantarla y girarla. A los 3 meses, la mayoría puede mantener la cabeza en posición vertical. Al cumplir un año, muchos comienzan a gatear y algunos incluso a caminar.
+                p.text-small.px-4.text-center.pb-2 Durante esta etapa, el control motor comienza a desarrollarse. Inicialmente, los bebés no son capaces de sostener su cabeza, pero, a medida que crecen, empiezan a levantarla y girarla. A los 3 meses, la mayoría puede mantener la cabeza en posición vertical. Al cumplir un año, muchos comienzan a gatear y algunos incluso a caminar.
     
     #t_2_2.titulo-segundo
       div.d-flex
@@ -105,7 +105,7 @@
 
     h1.mb-5.pb-2 Importancia de la estimulación temprana
     .row.mb-5.mx-0
-      .col-12.col-xl-8.d-flex.align-items-center.bg-ppal-amarillo-claro.p-4
+      .col-12.col-xl-8.d-flex.align-items-center.bg-ppal-amarillo-claro.p-4(data-aos="fade-right")
         p.fs-18px.mb-0 Es fundamental señalar que cada niño puede alcanzar estos hitos a su propio ritmo. Algunos pueden caminar antes que otros, y esto es completamente normal. Lo importante es <strong>brindarles un entorno seguro y motivador</strong>. La <strong>estimulación temprana</strong> desempeña un papel crucial. La interacción con el entorno, a través de <strong>juegos, música</strong> o simples <strong>conversaciones</strong>, contribuye a fortalecer las <strong>conexiones neuronales</strong>.
       .d-none.d-xl-block.col-4.px-0
         img.h-100(src='@/assets/curso/unidad/img-25.png', alt='Texto que describa la imagen')
@@ -116,22 +116,22 @@
         .row.mb-5.mx-0
           .d-none.d-xl-block.col-4.px-0
             img.h-100(src='@/assets/curso/unidad/img-26.png', alt='Texto que describa la imagen')
-          .col-12.col-xl-8.d-flex.align-items-center.bg-ppal-azul-oscuro.p-4
+          .col-12.col-xl-8.d-flex.align-items-center.bg-ppal-azul-oscuro.p-4(data-aos="fade-left")
             p.fs-18px.mb-0 Un ejemplo de estimulación es el uso de un patrón de habla caracterizado por un tono más alto, una pronunciación más clara y una entonación exagerada cuando se interactúa con los bebés. Este tipo de habla se conoce como baby talk  o "habla dirigida al bebé", y facilita la adquisición del lenguaje por parte del bebé, además de reforzar el vínculo afectivo entre madre e hijo (Brugué y Sellabona, 2008).
         p.fs-18px.text-bold.mb-5 Los juegos y experiencias sensoriales son:  
         .row
-          .col-10.col-md-6.mb-4.mb-md-0.mx-auto
+          .col-10.col-md-6.mb-4.mb-md-0.mx-auto(data-aos="fade-right")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.fs-18px.text-bold.text-center Jugar con bloques de colores
-                p.px-4.text-center.pb-2 No solo estimula la <strong>motricidad fina</strong>, sino que también fomenta la <strong>creatividad</strong> y la <strong>resolución de problemas</strong>.
-          .col-10.col-md-6.mb-4.mb-md-0.mx-auto
+                p.text-small.px-4.text-center.pb-2 No solo estimula la <strong>motricidad fina</strong>, sino que también fomenta la <strong>creatividad</strong> y la <strong>resolución de problemas</strong>.
+          .col-10.col-md-6.mb-4.mb-md-0.mx-auto(data-aos="fade-left")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.fs-18px.text-bold.text-center Experiencias sensoriales
-                p.px-4.text-center.pb-2 Tocar diferentes texturas es fundamental para el <strong>desarrollo integral</strong> del niño, ya que contribuye a su conocimiento del mundo y a la estimulación de sus sentidos.
+                p.text-small.px-4.text-center.pb-2 Tocar diferentes texturas es fundamental para el <strong>desarrollo integral</strong> del niño, ya que contribuye a su conocimiento del mundo y a la estimulación de sus sentidos.
 
     #t_2_3.titulo-segundo
       div.d-flex
@@ -140,7 +140,7 @@
 
     .row.mb-5
       p.fs-18px.mb-4 Los ejemplos de las reformas muestran que incluso existiendo el Código Civil colombiano desde 1887, este se ha adaptado a las nuevas realidades del país y a los cambios configurados en las relaciones entre los sujetos.
-      .d-none.d-xl-block.col-auto.col-xl-4.mx-auto.mt-4.mt-xl-0
+      .d-none.d-xl-block.col-auto.col-xl-4.mx-auto.mt-4.mt-xl-0(data-aos="flip-up")
         figure
           img(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')  
       .col-12.col-xl-8.d-flex.align-items-center
@@ -158,7 +158,7 @@
             .col-md-12.col-lg-7.mb-4.mb-md-0
               p.fs-18px.text-bold Expresión de emociones
               p.fs-18px Entre los 3 y 4 años, los niños comienzan a expresar sus sentimientos de manera más clara y a comprender las emociones de los demás. Por ejemplo, pueden sentir alegría al jugar con amigos o tristeza si se rompe un juguete.
-            .d-none.d-lg-block.col-md-6.col-lg-4
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="flip-down")
               figure
                 img(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen')
           .row.p-4.px-md-5.py-lg-5
@@ -177,21 +177,21 @@
                 img(src='@/assets/curso/unidad/img-33.png', alt='Texto que describa la imagen')
     .row.mb-5
       p.fs-18px.mb-5 El juego se convierte en un componente esencial de la infancia media. A través del juego libre y estructurado, los niños exploran su entorno y aprenden a interactuar con sus compañeros. 
-      .col-10.col-md-6.mb-4.mb-md-0.mx-auto
+      .col-10.col-md-6.mb-4.mb-md-0.mx-auto(data-aos="fade-right")
         div.custom-image-card.rounded-8px
           img.mb-4(src='@/assets/curso/unidad/img-34.png', alt='Texto que describa la imagen')
           div.mb-4
-            p.px-4.text-center.py-3 <strong>Juego y habilidades físicas</strong>. Actividades como jugar a la pelota mejoran la coordinación y el equilibrio.
-      .col-10.col-md-6.mb-4.mb-md-0.mx-auto
+            p.text-small.px-4.text-center.py-3 <strong>Juego y habilidades físicas</strong>. Actividades como jugar a la pelota mejoran la coordinación y el equilibrio.
+      .col-10.col-md-6.mb-4.mb-md-0.mx-auto(data-aos="fade-left")
         div.custom-image-card.rounded-8px
           img.mb-4(src='@/assets/curso/unidad/img-35.png', alt='Texto que describa la imagen')
           div.mb-4
-            p.px-4.text-center.py-3 <strong>Juego y habilidades sociales</strong>. Estas actividades también enseñan habilidades sociales, como el trabajo en equipo.
+            p.text-small.px-4.text-center.py-3 <strong>Juego y habilidades sociales</strong>. Estas actividades también enseñan habilidades sociales, como el trabajo en equipo.
 
     .row.mb-5.mx-0
       p.fs-18px.mb-4.pb-2 Las recomendaciones de actividad física son: 
       div.bg-ppal-amarillo-claro.d-flex.align-items-center
-        .col-12.col-xl-6.px-4
+        .col-12.col-xl-6.px-4(data-aos="fade-right")
           div.d-flex.mb-4
             i.fas.fa-baby.fs-18px.me-2.mt-1
             p.fs-18px.mb-0 <strong>Duración de la actividad</strong>. Se recomienda que los niños de esta edad realicen al menos una hora de actividad física diaria.
@@ -219,7 +219,7 @@
 
     .row.mb-5
       p.fs-18px.mb-5 Los cambios físicos y el entorno social influyen en el desarrollo motor, la autoestima y el bienestar emocional de los niños, como:
-      .col-12.col-xl-7
+      .col-12.col-xl-7(data-aos="fade-right")
         AcordionA(tipo="b")
           .div(titulo="Influencia física y social")
             p.fs-18px.px-2.mb-0 Los cambios físicos afectan no solo el desarrollo motor, sino también la autoestima y las relaciones sociales. Brugué y Sellabona (2008) destacan que “lo que un niño o niña muestra externamente –temperamento, tipo corporal, atractivo físico, estrategias o habilidades motoras– tiene efectos muy considerables sobre su autoconcepto” (p. 198).
@@ -235,7 +235,7 @@
     .row.mb-5
       .col-5.d-none.d-xl-block
         img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-7
+      .col-12.col-xl-7(data-aos="fade-left")
         AcordionA(tipo="b")
           .div(titulo="Deportes y actividades")
             p.fs-18px.px-2.mb-0 Durante esta etapa, los niños desarrollan habilidades motoras más refinadas. Participar en deportes organizados o actividades recreativas mejora su coordinación, agilidad y fuerza.
@@ -262,7 +262,7 @@
             .col-md-12.col-lg-7.mb-4.mb-md-0
               p.fs-18px.text-bold Crecimiento acelerado
               p.fs-18px Durante la adolescencia, los jóvenes atraviesan un crecimiento rápido en estatura y peso. Un chico de 12 años puede crecer hasta 10 cm en un año, mientras que las chicas pueden crecer alrededor de 8 cm en el mismo período. Este crecimiento no solo afecta la apariencia física, sino también la autoimagen y la forma en que se relacionan con su cuerpo.
-            .d-none.d-lg-block.col-md-6.col-lg-4
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="flip-up")
               figure
                 img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
           .row.p-4.px-md-5.py-lg-5
@@ -305,7 +305,7 @@
       .d-flex.align-items-center
         div.d-flex.align-items-center.bg-ppal-azul-claro.px-3.py-4
           img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-46.svg', alt='Texto que describa la imagen')
-          p.fs-18px.pe-xl-3.mb-0 La adolescencia es una etapa marcada por el <strong>crecimiento acelerado</strong>, la <strong>madurez física</strong>, y el desarrollo de una <strong>nueva autoimagen</strong>. Acompañar este proceso con comprensión, <strong>apoyo emocional y una nutrición adecuada</strong> es clave para ayudar a los adolescentes a enfrentar los desafíos de esta etapa.
+          p.fs-18px.pe-xl-3.mb-0(data-aos="fade-right") La adolescencia es una etapa marcada por el <strong>crecimiento acelerado</strong>, la <strong>madurez física</strong>, y el desarrollo de una <strong>nueva autoimagen</strong>. Acompañar este proceso con comprensión, <strong>apoyo emocional y una nutrición adecuada</strong> es clave para ayudar a los adolescentes a enfrentar los desafíos de esta etapa.
 
 
 </template>
