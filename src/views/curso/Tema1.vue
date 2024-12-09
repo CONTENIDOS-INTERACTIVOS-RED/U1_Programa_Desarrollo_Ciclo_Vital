@@ -68,7 +68,26 @@
       .d-flex.align-items-center
         div.d-flex.align-items-center.bg-ppal-azul-primary.px-3.py-4
           img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-18.svg', alt='Texto que describa la imagen')
-          p.fs-18px.pe-xl-3.mb-0(data-aos="fade-left") Estudiar el desarrollo físico y motor en niños y adolescentes implica considerar estas perspectivas y características. Comprender la interacción entre factores biológicos y psicológicos permite a los educadores ser más competentes y apoyar el desarrollo integral de sus estudiantes.
+          p.fs-18px.pe-xl-3.mb-0(data-aos="fade-left") Para lograrlo, la unidad se dividirá en varias secciones. Primero, se abordará el concepto de desarrollo, las etapas del crecimiento físico y el significado de cada una. Luego, se explorarán los hitos del desarrollo motor y los factores que pueden facilitar o dificultar este proceso. Finalmente, se analizarán los cambios que se presentan durante la pubertad.
+
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/9RVUS1Rf64A?si=UXt_eUBub4zAzIqR") Giosia, G. (13 de diciembre de 2017) ISEF UDELAR. Condición física en niños y adolescentes: ¿Qué puede hacer el Lic. y Prof. de Ed. Física?
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="http://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1139-76322019000300019&lng=es&tlng=es.") Sánchez, F. J., Campos, A. M., Vega, M., Cortés, O., Esparza, M. J., Galbe, J., Gallego, A., García, J., Pallás, C. R., Rando, Á., San Miguel, M. J., Colomer, J., & Mengual, J. M. (2019). Promoción de la actividad física en la infancia y la adolescencia (parte 1). Pediatría Atención Primaria, 21(83), 279-291.
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+
+
 </template>
 
 <script>

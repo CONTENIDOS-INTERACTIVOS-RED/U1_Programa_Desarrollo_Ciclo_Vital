@@ -91,11 +91,7 @@
                 p.fs-18px.text-bold.text-center Desarrollo motor
                 p.text-small.px-4.text-center.pb-2 Durante esta etapa, el control motor comienza a desarrollarse. Inicialmente, los bebés no son capaces de sostener su cabeza, pero, a medida que crecen, empiezan a levantarla y girarla. A los 3 meses, la mayoría puede mantener la cabeza en posición vertical. Al cumplir un año, muchos comienzan a gatear y algunos incluso a caminar.
     
-    #t_2_2.titulo-segundo
-      div.d-flex
-        span.me-3 2.2  
-        h2 Desarrollo entre los 12 y 18 meses
-
+    h1 Desarrollo entre los 12 y 18 meses
 
     .row.mb-5.mx-0
       .d-none.d-xl-block.col-4.px-0
@@ -133,13 +129,12 @@
                 p.fs-18px.text-bold.text-center Experiencias sensoriales
                 p.text-small.px-4.text-center.pb-2 Tocar diferentes texturas es fundamental para el <strong>desarrollo integral</strong> del niño, ya que contribuye a su conocimiento del mundo y a la estimulación de sus sentidos.
 
-    #t_2_3.titulo-segundo
+    #t_2_2.titulo-segundo
       div.d-flex
-        span.me-3 2.3  
+        span.me-3 2.2 
         h2 Infancia media (2-6 años)
 
     .row.mb-5
-      p.fs-18px.mb-4 Los ejemplos de las reformas muestran que incluso existiendo el Código Civil colombiano desde 1887, este se ha adaptado a las nuevas realidades del país y a los cambios configurados en las relaciones entre los sujetos.
       .d-none.d-xl-block.col-auto.col-xl-4.mx-auto.mt-4.mt-xl-0(data-aos="flip-up")
         figure
           img(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')  
@@ -206,9 +201,9 @@
     .row.mb-5
       p.fs-18px En conjunto, la infancia media es un periodo clave para el desarrollo físico, emocional y social de los niños, en el que las actividades motoras y el juego desempeñan un papel central.
 
-    #t_2_4.titulo-segundo
+    #t_2_3.titulo-segundo
       div.d-flex
-        span.me-3 2.4  
+        span.me-3 2.3  
         h2 Infancia tardía (6-12 años)
 
     .row.mb-5.mx-0
@@ -247,9 +242,9 @@
     .row.mb-5
       p.fs-18px En conclusión, la infancia tardía es un periodo de crecimiento gradual y desarrollo físico continuo, donde la <strong>alimentación</strong>, la <strong>actividad física</strong> y un entorno <strong>afectivo y seguro</strong> juegan un papel central para un desarrollo integral.
 
-    #t_2_5.titulo-segundo
+    #t_2_4.titulo-segundo
       div.d-flex
-        span.me-3 2.5  
+        span.me-3 2.4  
         h2 Adolescente (12 y 18 Años)
 
     .row.mb-5
@@ -306,6 +301,22 @@
         div.d-flex.align-items-center.bg-ppal-azul-claro.px-3.py-4
           img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-46.svg', alt='Texto que describa la imagen')
           p.fs-18px.pe-xl-3.mb-0(data-aos="fade-right") La adolescencia es una etapa marcada por el <strong>crecimiento acelerado</strong>, la <strong>madurez física</strong>, y el desarrollo de una <strong>nueva autoimagen</strong>. Acompañar este proceso con comprensión, <strong>apoyo emocional y una nutrición adecuada</strong> es clave para ayudar a los adolescentes a enfrentar los desafíos de esta etapa.
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/XhSv5Vt1pfg?si=uRroXF9OWYKL2TM0") Peñaloza, S. E R. [@CeduUninorte]. (2021, febrero 2). Generalidades del desarrollo motor [Video]
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://isfd112-bue.infd.edu.ar/sitio/wp-content/uploads/2020/07/APUNTE-DESARROLLO-MOTOR-LIBRO-1.pdf") Maganto, C., & Cruz, S. (s.f.). Desarrollo físico y psicomotor en la etapa infantil. Facultad de Psicología, Universidad del País Vasco
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
 
 
 </template>

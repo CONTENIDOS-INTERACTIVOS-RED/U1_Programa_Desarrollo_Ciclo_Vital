@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno.text-uppercase(:titulo="'unidad 1. Conceptos y fuentes del Derecho Civil'" :subTitulo="'3. Diferenciación entre personas naturales y jurídicas'")
+  BannerInterno.text-uppercase(:titulo="'Unidad 1. Desarrollo Físico y Motor en Niños y Adolescentes'" :subTitulo="'3. Desarrollo motor: hitos y factores que influyen en el avance motriz'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .row.mb-5.mx-0
@@ -19,7 +19,7 @@
           p Peñaloza, S. E R. [@CeduUninorte]. (2021, febrero 2). Generalidades del desarrollo motor [Video]. <strong>YouTube. https://www.youtube.com/watch?v=XhSv5Vt1pfg</strong>
         .col-4.col-lg-2.btn-ppal.mt-4.mt-md-5.ms-md-4.ms-lg-0.ms-xxl-5(data-aos="zoom-in")
           div(style="width: 140px ; height: 44px")
-            a.anexo.px-3.py-2.bg-ppal-azul-primary.box-shadow.cursor-pointer.color-ppal(href="https://wwww.youtube.com/watch?v=XhSv5Vt1pfg" target="_blank") Ver video
+            a.anexo.px-3.py-2.bg-ppal-azul-primary.box-shadow.cursor-pointer.color-ppal(href="https://www.youtube.com/watch?v=XhSv5Vt1pfg" target="_blank") Ver video
               i.fas.fa-arrow-right.ms-2.color-ppal.mt-1
 
     .row.mb-5
@@ -29,13 +29,15 @@
           .div(titulo="Desarrollo motor: un proceso complejo")
             p.px-2.mb-0 El desarrollo de los movimientos es un proceso que involucra el crecimiento y la maduración de los sistemas nervioso, muscular y esquelético (Gallahue y Ozmun, 2006). A medida que se adquieren nuevas habilidades motoras, el cerebro se vuelve más eficiente en la planificación y ejecución de movimientos, facilitando la adaptación a nuevas situaciones y desafíos físicos.
           .div(titulo="Perspectiva evolutiva del desarrollo motor")
-            p.px-2.mb-0 
+            p.px-2.mb-0 Según Iverson y Thelen (1999), el desarrollo motor surgió como una respuesta evolutiva a las demandas del entorno, brindando ventajas para la supervivencia. A lo largo de la historia, estas habilidades se han vuelto más sofisticadas, permitiendo una interacción más compleja y eficiente con el mundo.
           .div(titulo="Desarrollo motor: un proceso cultural y social")
-            p.px-2.mb-0 
+            p.px-2.mb-0 El desarrollo motor no es únicamente biológico, sino también cultural y social. Como destacan Gallahue y Ozmun (2012), las sociedades han creado diversas formas de enseñar y aprender habilidades motoras, influenciadas por el contexto cultural y social, generando una amplia variedad de prácticas, desde la educación formal hasta los entrenamientos deportivos.
           .div(titulo="Motricidad gruesa y motricidad fina")
-            p.px-2.mb-0 
+            p.px-2.mb-0 A medida que el cuerpo se fortalece y se vuelve más coordinado, se desarrollan dos tipos de habilidades: motricidad gruesa y motricidad fina (Mateo y Sáez, 2010). La motricidad gruesa se desarrolla al aprender a gatear, caminar y correr, mientras que la motricidad fina se desarrolla al aprender a agarrar objetos pequeños, dibujar o abrochar botones.
+          .div(titulo="Desarrollar la motricidad fina")
+            p.px-2.mb-0 Desarrollar la motricidad fina implica controlar los músculos pequeños de las manos y dedos, mientras que el desarrollo de la motricidad gruesa también estimula el cerebro. A través del movimiento y la exploración del entorno, se adquieren conocimientos sobre el espacio, el equilibrio, el tiempo y las relaciones de causa y efecto.
           .div(titulo="Exploración de las etapas del desarrollo motor")
-            p.px-2.mb-0 
+            p.px-2.mb-0 Es momento de explorar los hitos del desarrollo motor y los factores que influyen en cada una de sus etapas: infancia temprana, infancia media, infancia tardía y adolescencia. Cada etapa presenta desafíos y aprendizajes únicos que contribuyen al desarrollo integral de las personas.
       .col-5.d-none.d-xl-block
         img(src='@/assets/curso/unidad/img-49.png', alt='Texto que describa la imagen')
 
@@ -181,7 +183,21 @@
             h4 Proceso integral del desarrollo motor
             p El desarrollo motor es un proceso integral influenciado por múltiples factores. Identificar los hitos del desarrollo físico y motor en cada etapa de la infancia y la adolescencia permite comprender mejor cómo apoyar el crecimiento de niños y jóvenes. Se recomienda revisar el documento Desarrollo físico y psicomotor en la etapa infantil para profundizar en el análisis de cada etapa.
 
-
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/urVjn_9KN6g?si=yhgqJl0B-qias7Ck") Marín, M. (7 de mayo de 2023) El siete TV. Pubertad y adolescencia: cambios hormonales y corporales.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://acupsi.org/la-pubertad-en-la-era-digital/ ") Ballagas Lorenzo, Y., Conde Castro, R. C., Cuba Ortega, S., & Reyes Ortiz, L. D. (s.f.). La pubertad en la era digital. Universidad “Martha Abreu” de las Villas.
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
 
 </template>
 

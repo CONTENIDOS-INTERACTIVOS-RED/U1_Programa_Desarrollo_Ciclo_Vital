@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno.text-uppercase(:titulo="'unidad 1. Conceptos y fuentes del Derecho Civil'" :subTitulo="'4. Cambios hormonales y sexuales en la pubertad'")
+    BannerInterno.text-uppercase(:titulo="'Unidad 1. Desarrollo Físico y Motor en Niños y Adolescentes'" :subTitulo="'4. Cambios hormonales y sexuales en la pubertad'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
       .row.mb-5
         p.fs-18px Todos hemos vivido un momento en la vida en el que nos sentimos invencibles. Sin embargo, la pubertad nos recuerda nuestra naturaleza humana y la importancia de aceptar los cambios como parte natural del crecimiento. En esta sesión, exploramos  juntos los aspectos más relevantes de este proceso. Para comenzar, se invita a leer el cuento La Mariposa y la Crisálida, una historia que nos ayudará a comprender mejor los cambios que estamos viviendo.

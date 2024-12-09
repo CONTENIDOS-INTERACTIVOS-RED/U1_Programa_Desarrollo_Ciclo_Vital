@@ -53,26 +53,20 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Desarrollo entre los 12 y 18 meses',
+            titulo: 'Infancia media (2-6 años)',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Infancia media (2-6 años)',
+            titulo: 'Infancia tardía (6-12 años)',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Infancia tardía (6-12 años)',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
             titulo: 'Adolescente (12 y 18 Años)',
-            hash: 't_2_5',
+            hash: 't_2_4',
           },
         ],
       },
@@ -213,12 +207,31 @@ export default {
     },
     {
       referencia:
-        'Lizaso Elgarresta, I., Acha Morcillo, J., & Arruabarrena, L. R. (2018). Desarrollo biológico y cognitivo en el ciclo vital. Difusora Larousse - Ediciones Pirámide.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/123058?page=1',
+        'Lizaso Elgarresta, I., Acha Morcillo, J., & Arruabarrena, L. R. (2018). Desarrollo biológico y cognitivo en el ciclo vital. Difusora Larousse - Ediciones Pirámide. https://elibro.net/es/ereader/tecnologicadeloriente/123058?page=1',
     },
     {
       referencia:
         'Mateo, C. M., & Sáez, S. C. (2010). Desarrollo físico y psicomotor en la etapa infantil. Tolosa, San Sebastián.',
+    },
+    {
+      referencia:
+        'Mulsow, G. (1998). Desarrollo humano: ciclo vital y educación. Educación, 7(13), 61-73.',
+    },
+    {
+      referencia:
+        'Papalia, D. E., Feldman, R. D., & Martorell, G. (2012). Desarrollo humano. McGraw-Hill.',
+    },
+    {
+      referencia:
+        'Piaget, J. (1967). Development and learning. Journal of Research in Science Teaching, 5(3), 219-226.',
+    },
+    {
+      referencia:
+        'Ramos, M., & Ramos, J. (2021). Calendario del desarrollo infantil.',
+    },
+    {
+      referencia:
+        'Smith, L. B., Thelen, E., & Titzer, R. (2018). Development as a dynamic system. Trends in Sciences, 22(3), 259-262.',
     },
   ],
   glosario: [
@@ -273,7 +286,7 @@ export default {
     {
       termino: 'Motricidad',
       significado:
-        'Capacidad de realizar movimientos coordinados y precisos. Se divide en: motricidad fina: Movimientos pequeños y precisos, como escribir o abotonarse una camisa. motricidad gruesa: Movimientos amplios del cuerpo, como correr o saltar.',
+        'Capacidad de realizar movimientos coordinados y precisos. Se divide en: motricidad fina: movimientos pequeños y precisos, como escribir o abotonarse una camisa. Motricidad gruesa: Movimientos amplios del cuerpo, como correr o saltar.',
     },
     {
       termino: 'Psicomotricidad',
