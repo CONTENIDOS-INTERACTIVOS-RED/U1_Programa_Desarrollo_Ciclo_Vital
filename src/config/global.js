@@ -119,6 +119,12 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        unidad: '',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       // {
@@ -143,20 +149,9 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download:
-          'downloads/Anexos_Desarrollo de los órganos sexuales primarios y secundarios.pdf',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip ',
-      },
-      {
-        icono: 'far fa-registered',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
       },
     ],
   },
