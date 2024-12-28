@@ -157,7 +157,7 @@
           img(src='@/assets/curso/unidad/img-58.png', alt='Texto que describa la imagen')
     
     p Durante la pubertad, diversos factores influyen en el desarrollo motor de los adolescentes, como:
-    TabsC.color-primario
+    TabsC.color-primario.mb-5
       .tabs-content.bg-ppal-amarillo.border.px-4.p-md-5.py-3(titulo="Factores hormonales")
         .row
           .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4(data-aos="flip-up")
@@ -188,16 +188,18 @@
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://acupsi.org/la-pubertad-en-la-era-digital/") Ballagas Lorenzo, Y., et al. (s.f.). La pubertad en la era digital.
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://youtu.be/urVjn_9KN6g?si=yhgqJl0B-qias7Ck") Marín, M. (7 de mayo de 2023) El siete TV. Pubertad y adolescencia: cambios hormonales y corporales.
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/urVjn_9KN6g") Marín, M. (2023). Pubertad y adolescencia: cambios hormonales y corporales [Vídeo]
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://acupsi.org/la-pubertad-en-la-era-digital/ ") Ballagas Lorenzo, Y., Conde Castro, R. C., Cuba Ortega, S., & Reyes Ortiz, L. D. (s.f.). La pubertad en la era digital. Universidad “Martha Abreu” de las Villas.
+              a.text-small.text-primary(target="_blank", href="https://www.centrotap.es/2023/11/07/el-papel-de-las-hormonas-en-el-cambio-corporal-la-adolescencia/") Del real, Nadia. (2023). El papel de las hormonas en el cambio corporal: la adolescencia [Blog]
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 

@@ -307,16 +307,18 @@
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://isfd112-bue.infd.edu.ar/sitio/wp-content/uploads/2020/07/APUNTE-DESARROLLO-MOTOR-LIBRO-1.pdf") Maganto, C., & Cruz, S. (s.f.). Desarrollo físico y psicomotor en la etapa infantil.
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://youtu.be/XhSv5Vt1pfg?si=uRroXF9OWYKL2TM0") Peñaloza, S. E R. [@CeduUninorte]. (2021, febrero 2). Generalidades del desarrollo motor [Video]
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/XhSv5Vt1pfg") Peñaloza, S. E R. (2021). Generalidades del desarrollo motor [Vídeo]
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://isfd112-bue.infd.edu.ar/sitio/wp-content/uploads/2020/07/APUNTE-DESARROLLO-MOTOR-LIBRO-1.pdf") Maganto, C., & Cruz, S. (s.f.). Desarrollo físico y psicomotor en la etapa infantil. Facultad de Psicología, Universidad del País Vasco
+              a.text-small.text-primary(target="_blank", href="https://premiumhealthsport.com/blog/que-es-el-desarrollo-motor/") Godoy G. (2023). ¿Qué es el desarrollo motor o psicomotor? Definición y etapas [Blog]
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 
 </template>
