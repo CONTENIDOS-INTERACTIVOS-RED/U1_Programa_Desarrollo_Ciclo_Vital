@@ -662,15 +662,6 @@ div.mb-5
 
   h3 Imagen zoom
 
-  .position-relative(@mouseover="indicadorImagenZoom = false")
-    Zoom(
-      lente="200" 
-      :baja-resolucion="require('@/assets/curso/baja.jpeg')" 
-      :alta-resolucion="require('@/assets/curso/alta.jpeg')"
-    )
-    .indicador--hover(v-if="indicadorImagenZoom")
-  Separador
-
   #video.titulo-segundo.color-acento-botones
     h2 Video
 
