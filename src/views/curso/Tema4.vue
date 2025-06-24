@@ -95,7 +95,7 @@
                 p.text-bold.mb-3 Desarrollo de los órganos sexuales primarios y secundarios
                 p.text-small Lo invitamos a consultar el documento Desarrollo de los órganos sexuales primarios y secundarios para produndizar sobre el desarrollo de los órganos sexuales en los niños y adolescentes así como los cambios que se experimentan durante la pubertad.
               .col-sm-auto(data-aos="zoom-in")
-                a.download-btn.boton.color-acento-contenido.text-white(:href="obtenerLink('/downloads/Anexos_Desarrollo_de_los_organos_sexuales_primarios_y_secundarios.pdf')" target="_blank")
+                a.download-btn.boton.color-acento-contenido.text-white(:href="obtenerLink('/downloads/Anexos_Desarrollo.pdf')" target="_blank")
                   span.text-small Descargar
                   i.fas.fa-arrow-right
 
